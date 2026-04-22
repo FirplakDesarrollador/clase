@@ -66,7 +66,7 @@ export default function LoginPage() {
         <h1 style={{ fontSize: '1.75rem', marginBottom: '0.5rem' }}>
           {mode === 'signin' ? 'Bienvenido de nuevo' : 'Crea tu cuenta'}
         </h1>
-        <p style={{ color: '#94a3b8', marginBottom: '2rem', fontSize: '0.9rem' }}>
+        <p style={{ color: '#64748b', marginBottom: '2rem', fontSize: '0.9rem' }}>
           {mode === 'signin' 
             ? 'Ingresa tus credenciales para acceder a tu panel.' 
             : 'Únete a nosotros y comienza a construir algo increíble.'}

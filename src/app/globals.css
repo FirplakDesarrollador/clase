@@ -1,13 +1,13 @@
 :root {
-  --background: #0a0a0b;
-  --foreground: #f8fafc;
+  --background: #ffffff;
+  --foreground: #0f172a;
   --primary: #3b82f6;
   --primary-hover: #2563eb;
-  --secondary: #1e293b;
+  --secondary: #f1f5f9;
   --accent: #8b5cf6;
   --success: #10b981;
-  --card-bg: rgba(30, 41, 59, 0.5);
-  --border: rgba(255, 255, 255, 0.1);
+  --card-bg: rgba(255, 255, 255, 0.7);
+  --border: rgba(0, 0, 0, 0.08);
   --glass-effect: blur(12px) saturate(180%);
 }
 
@@ -44,14 +44,14 @@ main {
   font-size: 3.5rem;
   font-weight: 800;
   margin-bottom: 1rem;
-  background: linear-gradient(135deg, #fff 0%, #94a3b8 100%);
+  background: linear-gradient(135deg, #0f172a 0%, #334155 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
 
 .hero p {
   font-size: 1.25rem;
-  color: #94a3b8;
+  color: #475569;
   max-width: 600px;
   margin: 0 auto;
 }
@@ -87,7 +87,7 @@ main {
 }
 
 .card p {
-  color: #94a3b8;
+  color: #475569;
   line-height: 1.6;
 }
 
@@ -160,16 +160,16 @@ main {
   margin-bottom: 0.5rem;
   font-size: 0.875rem;
   font-weight: 500;
-  color: #94a3b8;
+  color: #475569;
 }
 
 .input-group input {
   width: 100%;
   padding: 0.75rem 1rem;
-  background: rgba(15, 23, 42, 0.6);
+  background: #f8fafc;
   border: 1px solid var(--border);
   border-radius: 0.75rem;
-  color: white;
+  color: #0f172a;
   font-size: 1rem;
   transition: all 0.2s ease;
 }
@@ -186,7 +186,7 @@ main {
   border: 1px solid var(--border);
   border-radius: 1.5rem;
   padding: 2.5rem;
-  box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.5);
+  box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.1);
 }
 
 .error-message {
@@ -222,7 +222,7 @@ main {
 .tab {
   background: none;
   border: none;
-  color: #94a3b8;
+  color: #64748b;
   font-weight: 600;
   cursor: pointer;
   padding: 0.5rem 1rem;
@@ -231,8 +231,8 @@ main {
 }
 
 .tab.active {
-  color: white;
-  background: rgba(255, 255, 255, 0.05);
+  color: var(--primary);
+  background: rgba(59, 130, 246, 0.1);
 }
 
 .home-header {
