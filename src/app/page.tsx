@@ -43,7 +43,7 @@ export default function Home() {
     <main>
       <header className="home-header animate-fade-in">
         <div>
-          <h2 style={{ fontSize: '1.25rem', color: '#94a3b8' }}>Panel de Control</h2>
+          <h2 style={{ fontSize: '1.25rem', color: '#64748b' }}>Panel de Control</h2>
         </div>
         <div style={{ display: 'flex', alignItems: 'center', gap: '1.5rem' }}>
           {user ? (
@@ -81,7 +81,7 @@ export default function Home() {
             <span>📊</span> Estadísticas
           </h2>
           <p>Visualiza el rendimiento de tus proyectos en tiempo real con gráficas interactivas.</p>
-          <div style={{ marginTop: '1.5rem', height: '4px', background: 'rgba(255,255,255,0.05)', borderRadius: '2px', overflow: 'hidden' }}>
+          <div style={{ marginTop: '1.5rem', height: '4px', background: 'rgba(0,0,0,0.05)', borderRadius: '2px', overflow: 'hidden' }}>
             <div style={{ width: '65%', height: '100%', background: 'var(--primary)' }}></div>
           </div>
           <p style={{ fontSize: '0.75rem', marginTop: '0.5rem' }}>65% de tus objetivos completados</p>
